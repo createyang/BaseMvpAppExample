@@ -1,0 +1,158 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <style name="CommonAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/global_title_bg</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="toolbarNavigationButtonStyle">@style/myToolbarNavigationButtonStyle</item>
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+
+        //点击图标启动是app是透明的，解决黑屏问题但是体验类似卡顿了
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        //ActionBarDrawerToggle设置颜色
+        <!--<item name="colorControlNormal">@android:color/background_dark</item>-->
+        <!--<item name="actionMenuTextColor">@color/global_title</item>-->
+
+        <item name="android:textColorHint">@color/commonTextColorWhite</item>
+        <item name="colorControlNormal">@color/commonTextColorWhite</item>
+        <item name="colorControlActivated">@color/commonTextColorWhite</item>
+        <item name="colorControlHighlight">@color/commonTextColorWhite</item>
+    </style>
+
+    <style name="CommonAppThemeGlobal" parent="CommonAppTheme" />
+
+    <style name="SplashTheme" parent="CommonAppTheme">
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/common_splash_bg</item>
+    </style>
+        <!--<item name="android:windowIsTranslucent">false</item>-->
+
+    <!-- toolbar菜单样式 app:theme="@style/ToolbarTheme" -->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!--<item name="actionMenuTextColor">@android:color/white</item>-->
+        <!--<item name="actionMenuTextAppearance">16sp</item>-->
+        <!--<item name="selectableItemBackground">@drawable/toolbar_button_bg</item>-->
+        <item name="android:background">@color/global_title_bg</item>
+    </style>
+    <!-- toolbar菜单返回键样式" -->
+    <style name="myToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">@dimen/pt_40</item>
+        <item name="android:paddingLeft">@dimen/pt_25</item>
+        <item name="android:paddingRight">@dimen/pt_25</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <!--<item name="android:padding">0dp</item>-->
+
+    <!-- toolbar弹出菜单样式 app:popupTheme="@style/ToolbarPopupTheme" -->
+
+    <!-- toolbar标题样式 app:titleTextAppearance="@style/ToolbarTitle"-->
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/pt_36</item>
+        <item name="android:textColor">@color/global_title</item>
+    </style>
+    <!--便签页-->
+    <style name="TabAppearance">
+        <item name="android:textSize">@dimen/pt_28</item>
+    </style>
+
+
+    <style name="hintTextAppearance">
+        <item name="android:textColor">@color/c_aaaaaa</item>
+        <item name="android:textSize">@dimen/tp_22</item>
+    </style>
+
+    <style name="errorTextAppearance">
+        <item name="android:textColor">@color/c_ff3333</item>
+        <item name="android:textSize">@dimen/pt_22</item>
+    </style>
+
+    <style name="LoginTextInputEditText">
+        <item name="android:drawablePadding">@dimen/pt_20</item>
+        <item name="android:paddingStart">@dimen/pt_34</item>
+        <item name="android:paddingLeft">@dimen/pt_34</item>
+        <item name="android:paddingEnd">@dimen/pt_20</item>
+        <item name="android:paddingRight">@dimen/pt_20</item>
+        <item name="android:paddingBottom">@dimen/pt_22</item>
+        <item name="android:textSize">@dimen/pt_28</item>
+    </style>
+
+    <style name="LineViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/px_1</item>
+        <item name="android:background">@color/c_e8e8e8</item>
+    </style>
+
+    <style name="SpinKitView">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="SpinKitView.Circle">
+        <item name="SpinKit_Style">Circle</item>
+    </style>
+
+    <style name="FormTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/c_111111</item>
+        <item name="android:textSize">@dimen/pt_32</item>
+        <item name="android:paddingTop">@dimen/pt_30</item>
+        <item name="android:paddingBottom">@dimen/pt_30</item>
+        <item name="android:paddingLeft">@dimen/pt_28</item>
+        <item name="android:paddingRight">@dimen/pt_30</item>
+    </style>
+
+    <style name="FormContentTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/c_777777</item>
+        <item name="android:textSize">@dimen/pt_26</item>
+    </style>
+
+    <style name="FormContentDesStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/pt_44</item>
+        <item name="android:textColor">@color/c_333333</item>
+        <item name="android:textSize">@dimen/pt_26</item>
+    </style>
+
+    <style name="FormCenterContentTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@color/c_111111</item>
+        <item name="android:textSize">@dimen/pt_26</item>
+    </style>
+
+    <style name="FormCenterTitleTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/c_777777</item>
+        <item name="android:textSize">@dimen/pt_26</item>
+    </style>
+
+    <style name="MyBottomDialog" parent="@android:style/Theme.Holo.Dialog">
+        <!-- 是否有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!--是否在悬浮Activity之上  -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--阴影  -->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

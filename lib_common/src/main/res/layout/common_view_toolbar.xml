@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:toolbar="http://schemas.android.com/tools"
+    android:id="@+id/lay_tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/pt_88"
+    android:orientation="vertical">
+
+
+    <com.tianbao.live.common.widget.toolbar.CompatLayout
+        android:id="@+id/lay_state_bar_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_ffffff" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.tianbao.live.common.widget.toolbar.CompatToolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="@dimen/pt_88"
+            app:contentInsetStart="0dp"
+            app:theme="@style/ToolbarTheme"
+            app:titleTextAppearance="@style/ToolbarTitle"
+            app:titleTextColor="@color/global_title">
+            <!--app:popupTheme="@style/ToolbarPopupTheme"-->
+            <TextView
+                android:id="@+id/tv_title_c"
+                style="@style/ToolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/str_"
+                android:textStyle="bold" />
+        </com.tianbao.live.common.widget.toolbar.CompatToolbar>
+
+        <TextView
+            android:id="@+id/tv_title_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/pt_30"
+            android:text="@string/str_"
+            android:textColor="@color/c_111111"
+            android:textSize="@dimen/pt_28"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view_line"
+            style="@style/LineViewStyle"
+            android:layout_below="@+id/tool_bar" />
+    </RelativeLayout>
+
+</LinearLayout>

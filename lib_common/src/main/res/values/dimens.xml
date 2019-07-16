@@ -1,0 +1,64 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="content_padding">8dp</dimen>
+
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="px_1">1px</dimen>
+    <dimen name="dp_0">0dp</dimen>
+
+
+    <dimen name="pt_20">20pt</dimen>
+    <dimen name="pt_34">34pt</dimen>
+    <dimen name="pt_28">28pt</dimen>
+    <dimen name="pt_50">50pt</dimen>
+    <dimen name="pt_1">1pt</dimen>
+    <dimen name="pt_286">286pt</dimen>
+    <dimen name="pt_30">30pt</dimen>
+    <dimen name="pt_3">3pt</dimen>
+    <dimen name="pt_44">44pt</dimen>
+    <dimen name="pt_22">22pt</dimen>
+    <dimen name="pt_15">15pt</dimen>
+    <dimen name="pt_88">88pt</dimen>
+    <dimen name="pt_10">10pt</dimen>
+    <dimen name="pt_5">5pt</dimen>
+    <dimen name="pt_386">386pt</dimen>
+    <dimen name="pt_110">110pt</dimen>
+    <dimen name="pt_240">240pt</dimen>
+    <dimen name="pt_52">52pt</dimen>
+    <dimen name="pt_100">100pt</dimen>
+    <dimen name="pt_32">32pt</dimen>
+    <dimen name="pt_25">25pt</dimen>
+    <dimen name="pt_138">138pt</dimen>
+    <dimen name="pt_35">35pt</dimen>
+    <dimen name="pt_78">78pt</dimen>
+    <dimen name="pt_120">120pt</dimen>
+    <dimen name="pt_80">80pt</dimen>
+    <dimen name="pt_36">36pt</dimen>
+    <dimen name="pt_24">24pt</dimen>
+    <dimen name="pt_200">200pt</dimen>
+    <dimen name="pt_220">220pt</dimen>
+    <dimen name="pt_90">90pt</dimen>
+    <dimen name="pt_18">18pt</dimen>
+    <dimen name="pt_60">60pt</dimen>
+    <dimen name="pt_26">26pt</dimen>
+    <dimen name="pt_72">72pt</dimen>
+    <dimen name="pt_96">96pt</dimen>
+    <dimen name="pt_124">124pt</dimen>
+    <dimen name="pt_300">300pt</dimen>
+    <dimen name="tp_22">22pt</dimen>
+    <dimen name="pt_40">40pt</dimen>
+    <dimen name="pt_16">16pt</dimen>
+    <dimen name="pt_4">4pt</dimen>
+    <dimen name="pt_152">152pt</dimen>
+    <dimen name="pt_58">58pt</dimen>
+    <dimen name="pt_365">365pt</dimen>
+    <dimen name="pt_70">70pt</dimen>
+    <dimen name="pt_140">140pt</dimen>
+    <dimen name="pt_8">8pt</dimen>
+    <dimen name="pt_168">168pt</dimen>
+    <dimen name="pt_2">2pt</dimen>
+    <dimen name="pt_62">62pt</dimen>
+    <dimen name="pt_600">600pt</dimen>
+    <dimen name="pt_68">68pt</dimen>
+    <dimen name="pt_500">500pt</dimen>
+</resources>

@@ -1,0 +1,95 @@
+ext {
+    android = [
+            //本地
+            compileSdkVersion: 27,
+            buildToolsVersion: '28.0.3',
+            applicationId    : "com.tianbao.live.tbliveshopping",
+            minSdkVersion    : 16,
+            targetSdkVersion : 27,
+            versionCode      : 1,
+            versionName      : "1.0.0",
+
+            proguard         : true,
+            rootPrj          : "$projectDir/..",
+            ndkAbi           : 'armeabi-v7a',//'armeabi'//, 'arm64-v8a'
+            noffmpeg         : false,
+            noijkplay        : false
+    ]
+
+    def dependVersion = [
+            support: "27.1.0",
+            retrofit   : "2.2.0",
+            okhttp     : "3.9.1",
+            dagger2    : "2.14.1",
+            butterknife: "8.8.1",
+            blockcanary: "1.2.1",
+            leakcanary : "1.6.2"
+    ]
+
+    dependencies = [
+            //base
+            "support-v4"                   : "com.android.support:support-v4:${dependVersion.support}",
+            "appcompat-v7"                 : "com.android.support:appcompat-v7:${dependVersion.support}",
+            "recyclerview-v7"              : "com.android.support:recyclerview-v7:${dependVersion.support}",
+            "design"                       : "com.android.support:design:${dependVersion.support}",
+            "cardview-v7"                  : "com.android.support:cardview-v7:${dependVersion.support}",
+
+            //ui
+            "constraint"                   : "com.android.support.constraint:constraint-layout:1.1.3",
+            "glide-transformations"        : "jp.wasabeef:glide-transformations:1.2.1",
+//            "material-calendarview"      : "com.prolificinteractive:material-calendarview:1.4.0",
+//            "materialsearchview"         : "com.miguelcatalan:materialsearchview:1.4.0",
+//            "multiline-collapsingtoolbar": "net.opacapp:multiline-collapsingtoolbar:1.3.1",
+//            "PhotoView"                  : "com.github.chrisbanes:PhotoView:1.3.0",
+//            "html-textview"              : "org.sufficientlysecure:html-textview:3.1",
+
+            //rx
+            "rxjava"                       : "io.reactivex.rxjava2:rxjava:2.0.7",
+            "rxandroid"                    : "io.reactivex.rxjava2:rxandroid:2.0.1",
+            "rxpermissions"                : "com.tbruyelle.rxpermissions2:rxpermissions:0.9.3@aar",
+
+            //network
+            "gson"                         : "com.google.code.gson:gson:2.7",
+            "retrofit"                     : "com.squareup.retrofit2:retrofit:${dependVersion.retrofit}",
+            "retrofit-converter-gson"      : "com.squareup.retrofit2:converter-gson:${dependVersion.retrofit}",
+            "retrofit-adapter-rxjava2"     : "com.squareup.retrofit2:adapter-rxjava2:${dependVersion.retrofit}",
+            "okhttp"                       : "com.squareup.okhttp3:okhttp:${dependVersion.okhttp}",
+            "okhttp-logging-interceptor"   : "com.squareup.okhttp3:logging-interceptor:${dependVersion.okhttp}",
+            "glide"                        : "com.github.bumptech.glide:glide:3.7.0",
+            "glide-okhttp3-integration"    : "com.github.bumptech.glide:okhttp3-integration:1.4.0@aar",
+            "jsoup"                        : "org.jsoup:jsoup:1.10.1",
+
+            //di
+            "butterknife"                  : "com.jakewharton:butterknife:${dependVersion.butterknife}",
+            "butterknife-compiler"         : "com.jakewharton:butterknife-compiler:${dependVersion.butterknife}",
+            "dagger"                       : "com.google.dagger:dagger:${dependVersion.dagger2}",
+            "dagger-compiler"              : "com.google.dagger:dagger-compiler:${dependVersion.dagger2}",
+            "annotation"                   : "org.glassfish:javax.annotation:10.0-b28",
+
+            //other
+            "multidex"                     : "com.android.support:multidex:1.0.2",
+            "logger"                       : "com.orhanobut:logger:1.15",
+            "fragmentation"                : "me.yokeyword:fragmentation:1.3.6",
+            "fragmentation-swipeback"      : "me.yokeyword:fragmentation-swipeback:1.3.6",
+            "baseRecyclerViewAdapterHelper": "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46",
+            "joda"                         : "net.danlew:android.joda:2.9.3",
+
+            //bugly
+            "crashreport"                  : "com.tencent.bugly:crashreport_upgrade:latest.release", //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+            "nativecrashreport"            : "com.tencent.bugly:nativecrashreport:latest.release",//其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号，例如3.0
+
+            //canary
+            "blockcanary-android"          : "com.github.moduth:blockcanary-android:${dependVersion.blockcanary}",
+            "blockcanary-no-op"            : "com.github.moduth:blockcanary-no-op:${dependVersion.blockcanary}",
+            "leakcanary-android"           : "com.squareup.leakcanary:leakcanary-android:${dependVersion.leakcanary}",
+            "leakcanary-android-no-op"     : "com.squareup.leakcanary:leakcanary-android-no-op:${dependVersion.leakcanary}",
+            "leakcanary-support-fragment"  : "com.squareup.leakcanary:leakcanary-support-fragment:${dependVersion.leakcanary}",
+
+            // 替换成最新版本, 需要注意的是api
+            // 要与compiler匹配使用，均使用最新版可以保证兼容
+            "arouter-annotation"           : 'com.alibaba:arouter-annotation:1.0.6',
+            "arouter-api"                  : 'com.alibaba:arouter-api:1.4.1',
+            "arouter-compiler"             : 'com.alibaba:arouter-compiler:1.2.2'
+    ]
+
+}

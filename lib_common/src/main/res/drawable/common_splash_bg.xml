@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <!-- 底层白色 -->
+    <item android:drawable="@mipmap/splash_pic" />
+
+    <!-- 顶层Logo居中 -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/splash_pic" />
+    </item>
+</layer-list>

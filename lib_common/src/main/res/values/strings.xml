@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">common</string>
+    <string name="str_">--</string>
+    <string name="networkExceptionHint">网络连接异常,无法获取最新数据。</string>
+
+    <string name="login_account_hint">请输入您的手机号</string>
+    <string name="login_password_hint">请输入登录密码</string>
+    <string name="login_check_code_hint">6位短信验证码</string>
+    <string name="login">登录</string>
+    <string name="login_click_code">点击获取验证码</string>
+    <string name="login_protocol_1">登录即同意</string>
+    <string name="login_protocol_2"><![CDATA[<<用户使用协议>>]]></string>
+    <string name="login_iphone_null">手机号不能为空</string>
+    <string name="login_iphone_hint">请输入正确的手机号码</string>
+    <string name="login_password_null">密码不能为空</string>
+    <string name="login_password_length">密码大于4位</string>
+    <string name="login_code_null">验证码不能为空</string>
+    <string name="login_code_length">验证码长度为6位</string>
+
+    <string name="alphabet_and_number">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`¬!"£$%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</string>
+
+</resources>
