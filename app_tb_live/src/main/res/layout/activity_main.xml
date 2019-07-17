@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.tianbao.live.ui.main.MainActivity">
+    tools:context="com.tianbao.tclive.ui.main.MainActivity">
 
     <LinearLayout
         android:id="@+id/lay_main_top"
@@ -27,7 +27,7 @@
     <include layout="@layout/common_view_bottom_line"/>
 
 
-    <com.tianbao.live.common.widget.bottombar.BottomBar
+    <com.tianbao.tclive.common.widget.bottombar.BottomBar
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/pt_110"

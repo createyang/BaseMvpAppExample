@@ -10,9 +10,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app_admin_version" />
             <option value="$PROJECT_DIR$/app_tb_live" />
+            <option value="$PROJECT_DIR$/lib_comlive" />
             <option value="$PROJECT_DIR$/lib_common" />
             <option value="$PROJECT_DIR$/lib_componet" />
-            <option value="$PROJECT_DIR$/lib_tclive" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

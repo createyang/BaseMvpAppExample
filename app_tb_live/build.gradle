@@ -13,7 +13,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         ndk {
-            abiFilters "armeabi", "armeabi-v7a","arm64-v8a", "x86", "mips"
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86", "mips"
         }
 
         buildConfigField "String", "HOST_URL", "\"${getIpHostValue()}\""
@@ -32,8 +32,9 @@ android {
 
 dependencies {
     implementation project(':lib_componet')
-    implementation project(':lib_tclive')
+    implementation project(path: ':lib_comlive')
     annotationProcessor rootProject.ext.dependencies["dagger-compiler"]
     compileOnly rootProject.ext.dependencies["annotation"]
     annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]
+
 }

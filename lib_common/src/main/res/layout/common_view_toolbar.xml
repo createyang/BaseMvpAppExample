@@ -9,7 +9,7 @@
     android:orientation="vertical">
 
 
-    <com.tianbao.live.common.widget.toolbar.CompatLayout
+    <com.tianbao.tclive.common.widget.toolbar.CompatLayout
         android:id="@+id/lay_state_bar_height"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.tianbao.live.common.widget.toolbar.CompatToolbar
+        <com.tianbao.tclive.common.widget.toolbar.CompatToolbar
             android:id="@+id/tool_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
                 android:gravity="center"
                 android:text="@string/str_"
                 android:textStyle="bold" />
-        </com.tianbao.live.common.widget.toolbar.CompatToolbar>
+        </com.tianbao.tclive.common.widget.toolbar.CompatToolbar>
 
         <TextView
             android:id="@+id/tv_title_r"

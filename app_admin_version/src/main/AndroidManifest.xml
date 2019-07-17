@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.READ_LOGS" />
 
     <application
-        android:name="com.tianbao.live.app.TBApplication"
+        android:name="com.tianbao.tclive.app.TBApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,12 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/CommonAppThemeGlobal">
 
-        <activity android:name="com.tianbao.live.ui.main.MainActivity" />
+        <activity android:name="com.tianbao.tclive.ui.main.MainActivity" />
 
-        <activity android:name="com.tianbao.live.ui.main.LoginActivity" />
+        <activity android:name="com.tianbao.tclive.ui.main.LoginActivity" />
 
         <activity
-            android:name="com.tianbao.live.ui.main.SplashActivity"
+            android:name="com.tianbao.tclive.ui.main.SplashActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"

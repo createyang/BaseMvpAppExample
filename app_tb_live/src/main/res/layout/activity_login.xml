@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.tianbao.live.ui.main.LoginActivity">
+    tools:context="com.tianbao.tclive.ui.main.LoginActivity">
 
     <ImageView
         android:layout_width="match_parent"

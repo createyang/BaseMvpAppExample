@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/c_f8f8f8"
     android:orientation="vertical"
-    tools:context="com.tianbao.live.ui.main.MyTabFragment"
+    tools:context="com.tianbao.tclive.ui.main.MyTabFragment"
     >
 
 

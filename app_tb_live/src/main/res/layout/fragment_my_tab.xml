@@ -1,23 +1,23 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/c_f8f8f8"
     android:orientation="vertical"
-    tools:context="com.tianbao.live.ui.main.MyTabFragment"
-    >
+    tools:context="com.tianbao.tclive.ui.main.MyTabFragment">
 
+    <Button
+        android:id="@+id/btn_create_live_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建直播间直播"
+        />
 
- <TextView
-     android:id="@+id/tv_my"
-     android:layout_width="match_parent"
-     android:layout_height="match_parent"
-     android:text="我的"
-     android:gravity="center"
-     />
-
-
+    <Button
+        android:id="@+id/btn_enter_live_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入直播间观看" />
 
 </LinearLayout>
