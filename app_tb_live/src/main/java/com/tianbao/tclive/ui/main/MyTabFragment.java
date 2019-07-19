@@ -7,9 +7,9 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.Button;
 
-import com.tianbao.live.lib_comlive.LivePlayerActivity;
-import com.tianbao.live.lib_comlive.TCCameraAnchorActivity;
-import com.tianbao.live.lib_comlive.TCUtils;
+import com.tianbao.live.lib_comlive.demo.LivePlayerActivity;
+import com.tianbao.live.lib_comlive.demo.TCCameraAnchorActivity;
+import com.tianbao.live.lib_comlive.demo.TCUtils;
 import com.tianbao.tclive.R;
 import com.tianbao.tclive.common.base.SimpleFragment;
 

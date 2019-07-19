@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/lib_comlive" />
             <option value="$PROJECT_DIR$/lib_common" />
             <option value="$PROJECT_DIR$/lib_componet" />
+            <option value="$PROJECT_DIR$/tuikit" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

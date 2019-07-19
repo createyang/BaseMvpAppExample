@@ -44,8 +44,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.tianbao.live.lib_comlive.LivePlayerActivity" />
-        <activity android:name="com.tianbao.live.lib_comlive.TCCameraAnchorActivity" />
+        <activity android:name="com.tianbao.live.lib_comlive.demo.LivePlayerActivity" />
+        <activity android:name="com.tianbao.live.lib_comlive.demo.TCCameraAnchorActivity" />
         <!--<activity android:name="com.tianbao.tclive.live.TCCameraAnchorActivity" />-->
         <!--<activity android:name="com.tianbao.tclive.live.LivePlayerActivity"></activity>-->
     </application>

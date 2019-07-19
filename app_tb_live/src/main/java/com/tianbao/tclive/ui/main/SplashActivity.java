@@ -78,7 +78,6 @@ public class SplashActivity extends BaseActivity<SplashPresenter> implements Spl
 
     @Override
     protected void onDestroy() {
-        Glide.clear(ivWelcomeBg);
         super.onDestroy();
     }
 

@@ -56,6 +56,7 @@ dependencies {
     api rootProject.ext.dependencies["okhttp"]
     api rootProject.ext.dependencies["okhttp-logging-interceptor"]
     api rootProject.ext.dependencies["glide"]
+    annotationProcessor rootProject.ext.dependencies["glide-compiler"]
     api rootProject.ext.dependencies["glide-okhttp3-integration"]
     api rootProject.ext.dependencies["jsoup"]
 

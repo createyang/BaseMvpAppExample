@@ -36,5 +36,5 @@ dependencies {
     annotationProcessor rootProject.ext.dependencies["dagger-compiler"]
     compileOnly rootProject.ext.dependencies["annotation"]
     annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]
-
+    annotationProcessor rootProject.ext.dependencies["glide-compiler"]
 }
