@@ -3,7 +3,7 @@ ext {
             //本地
             compileSdkVersion: 27,
             buildToolsVersion: '28.0.3',
-            applicationId    : "com.tianbao.live.tbliveshopping",
+            applicationId    : "com.corporate_domain_name.app_name",
             minSdkVersion    : 16,
             targetSdkVersion : 27,
             versionCode      : 1,

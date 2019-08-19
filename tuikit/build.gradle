@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation rootProject.ext.dependencies["support-v4"]
     implementation rootProject.ext.dependencies["appcompat-v7"]
@@ -52,5 +52,11 @@ dependencies {
 
     api 'com.tencent.imsdk:imsdk:4.4.716'
 //    api project(':imsdk')
+
+    // HUAWEI push sdk
+    api 'com.huawei.android.hms:push:2.6.3.301'
+    api 'com.huawei.android.hms:base:2.6.3.301'
+    // MEIZU push sdk
+    api 'com.meizu.flyme.internet:push-internal:3.6.+@aar'
 }
 

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tianbao.tclive.common" >
+    package="com.corporate_domain_name.app_name.common" >
 
     <!-- Required -->
     <permission

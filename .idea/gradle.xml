@@ -8,8 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app_admin_version" />
-            <option value="$PROJECT_DIR$/app_tb_live" />
+            <option value="$PROJECT_DIR$/app_example" />
             <option value="$PROJECT_DIR$/lib_comlive" />
             <option value="$PROJECT_DIR$/lib_common" />
             <option value="$PROJECT_DIR$/lib_componet" />

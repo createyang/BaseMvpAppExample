@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/pt_78"
     android:paddingBottom="@dimen/pt_36">
 
-    <com.tianbao.tclive.common.widget.dialog.progressing.SpinKitView
+    <com.corporate_domain_name.app_name.common.widget.dialog.progressing.SpinKitView
         android:id="@+id/spin_kit"
         style="@style/SpinKitView.Circle"
         android:layout_width="@dimen/pt_120"

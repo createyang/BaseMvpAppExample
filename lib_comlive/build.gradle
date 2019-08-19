@@ -38,6 +38,6 @@ dependencies {
     api 'com.tencent.liteavsdk:LiteAVSDK_Smart:latest.release'
     //  MLVB 需要依赖腾讯云 IM 服务
 //    api 'com.tencent.imsdk:imsdk:4.4.479'
-    implementation project(path: ':tuikit')
+    api project(path: ':tuikit')
 //    api project(':tuikit')
 }

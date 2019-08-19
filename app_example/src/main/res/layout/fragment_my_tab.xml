@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_f8f8f8"
+    android:orientation="vertical"
+    tools:context="com.corporate_domain_name.app_name.ui.main.MyTabFragment">
+
+    <Button
+        android:id="@+id/btn_get_stream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取直播推拉流"
+        />
+
+    <Button
+        android:id="@+id/btn_create_live_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建直播间直播"
+        />
+
+    <Button
+        android:id="@+id/btn_enter_live_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入直播间观看" />
+
+</LinearLayout>
